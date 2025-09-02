@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App min-h-dvh bg-amethyst-50 text-amethyst-950 text-lg">
+    <div className="App min-h-dvh bg-rose-50 text-rose-950 text-lg">
       <div className='mx-auto p-5 sm:p-10 md:px-20 lg:max-w-5xl'>
         <Intro />
         <Experiencia />
