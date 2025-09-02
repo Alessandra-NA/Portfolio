@@ -4,6 +4,23 @@ function Experiencia() {
   return (
     <section className='mb-20'>
       <h2 className='text-3xl font-bold mb-8'>Mi experiencia laboral</h2>
+      
+      <div className="flex">
+        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Marzo 2024 - Actualidad</h4>
+        <div className='ml-4 border-l-2 border-amethyst-300 pl-8 relative'>
+          <div className="w-3 h-3 bg-amethyst-500 rounded-full absolute dot"></div>
+          <h3 className='text-2xl font-semibold text-amethyst-500 my-2'>Full Stack Developer</h3>
+          <h4 className='font-semibold lg:hidden'>Marzo 2024 - Actualidad</h4>
+          {/* <h5 className='text-amethyst-500 font-medium my-3'>Webs para diversos clientes</h5> */}
+          <ol className='list-disc ml-8 mb-8'>
+            <li>Mantenimiento y desarrollo de funcionalidades de la plataforma “PeoplePlanner”, sistema de gestión de recursos humanos. </li>
+            <li>Migración de funcionalidades de JavaScript a React, mejorando la mantenibilidad y eficiencia del frontend. </li>
+            <li>Optimización del despliegue, mantenibilidad y eficiencia del backend usando Serverless Framework y arquitectura hexagonal. </li>
+            <li>Tecnologías utilizadas: <b className='font-semibold'>React.js, JavaScript, Node.js, Express, MariaDB, Serverless, AWS.</b></li>
+          </ol>
+        </div>
+      </div>
+      
       <div className="flex">
         <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Julio 2023 - Diciembre 2023</h4>
         <div className='ml-4 border-l-2 border-amethyst-300 pl-8 relative'>
