@@ -11,7 +11,7 @@ function Intro() {
       </div>
       <div className='md:w-2/3'>
         <h1 className='text-5xl font-bold my-6'>Alessandra Nuñez Agüero</h1>
-        <p className='pb-3'><b className='text-amethyst-500'>Full Stack Developer</b> con 1 año de experiencia en la creación de aplicaciones web. Egresada de la carrera de <b className='text-amethyst-500'>Ingeniería de sistemas</b>, de la Universidad de Lima.</p>
+        <p className='pb-3'><b className='text-amethyst-500'>Full Stack Developer</b> con más de 2 años de experiencia en la creación de aplicaciones web. Egresada de la carrera de <b className='text-amethyst-500'>Ingeniería de sistemas</b>, de la Universidad de Lima.</p>
         <p>Especializada en <b className='text-amethyst-400'>Ingeniería de Software</b> y <b className='text-amethyst-400'>Sistemas de la información</b>.</p>
         <div className="botones my-8 flex gap-4">
           <a href={'mailto:anunez.a01@gmail.com'} className='rounded-md px-4 py-3 button bg-amethyst-500 hover:bg-amethyst-600 active:bg-amethyst-700 text-white'>Contáctame</a>
