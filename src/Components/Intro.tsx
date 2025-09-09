@@ -15,7 +15,7 @@ function Intro() {
         <p>Especializada en <b className='text-rose-400'>Ingeniería de Software</b> y <b className='text-rose-400'>Sistemas de la información</b>.</p>
         <div className="botones my-8 flex gap-4">
           <a href={'mailto:anunez.a01@gmail.com'} className='rounded-md px-4 py-3 button bg-rose-500 hover:bg-rose-600 active:bg-rose-700 text-white'>Contáctame</a>
-          <a href={cv} className='rounded-md px-4 py-3 text-rose-700 border border-rose-700 hover:bg-rose-100 active:bg-rose-200'>Descargar CV</a>
+          <a href={cv} target="_blank" className='rounded-md px-4 py-3 text-rose-700 border border-rose-700 hover:bg-rose-100 active:bg-rose-200'>Descargar CV</a>
         </div>
       </div>
     </section>

@@ -7,7 +7,7 @@ function Experiencia() {
       <h2 className='text-3xl font-bold mb-8'>Mi experiencia laboral</h2>
       
       <div className="flex">
-        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Marzo 2024 - Actualidad</h4>
+        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Abril 2024 - Actualidad (SEIDOR)</h4>
         <div className='ml-4 border-l-2 border-rose-300 pl-8 relative'>
           <div className="w-3 h-3 bg-rose-500 rounded-full absolute dot"></div>
           <h3 className='text-2xl font-semibold text-rose-500 my-2'>Full Stack Developer</h3>
@@ -33,7 +33,7 @@ function Experiencia() {
       </div>
       
       <div className="flex">
-        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Julio 2023 - Diciembre 2023</h4>
+        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Julio 2023 - Diciembre 2023 (Solucionatica)</h4>
         <div className='ml-4 border-l-2 border-rose-300 pl-8 relative'>
           <div className="w-3 h-3 bg-rose-500 rounded-full absolute dot"></div>
           <div className='my-4'>
@@ -59,7 +59,7 @@ function Experiencia() {
       </div>
 
       <div className="flex">
-        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Julio 2022 - Diciembre 2022</h4>
+        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Julio 2022 - Diciembre 2022 (Solucionatica)</h4>
         <div className='ml-4 border-l-2 border-rose-300 pl-8 relative'>
           <div className="w-3 h-3 bg-rose-500 rounded-full absolute dot"></div>
           <h3 className='text-2xl font-semibold text-rose-500 my-2'>Full Stack Developer</h3>
