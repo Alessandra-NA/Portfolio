@@ -19,7 +19,7 @@ function Experiencia() {
             <li>Optimización del backend con arquitectura hexagonal y Serverless Framework, incorporando WebSocket para comunicación en tiempo real. </li>
             <li>Tecnologías utilizadas: <b className='font-semibold'>React.js, JavaScript, Node.js, Express, MariaDB, Serverless, AWS.</b></li>
           </ol>
-          {/* <img src={peoplePlanner} alt="People Planner" className='shadow-lg rounded-xl mb-9 mx-auto w-3/4' /> */}
+          <img src={peoplePlanner} alt="People Planner" className='shadow-lg rounded-xl mb-9 mx-auto' />
 
           <h5 className='text-rose-500 font-medium my-3'>SaaS de evaluación de pilotos (LATAM)</h5>
           <ol className='list-disc ml-8 mb-8'>
@@ -28,7 +28,7 @@ function Experiencia() {
             <li>Contribución en el diseño de arquitectura y experiencia de usuario, optimizando el proceso de evaluación de más de 4800 usuarios en Latinoamérica.</li>
             <li>Tecnologías utilizadas: <b className='font-semibold'>React.js, Service Workers, IndexedDB, JavaScript, SAP CAP, SAP S/HANA</b></li>
           </ol>
-          {/* <img src={latam} alt="Web Formularios LATAM" className='shadow-lg rounded-xl mb-6 mx-auto w-3/4' /> */}
+          <img src={latam} alt="Web Formularios LATAM" className='shadow-lg rounded-xl mb-6 mx-auto' />
         </div>
       </div>
       
