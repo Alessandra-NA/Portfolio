@@ -7,11 +7,11 @@ function Experiencia() {
       <h2 className='text-3xl font-bold mb-8'>Mi experiencia laboral</h2>
       
       <div className="flex">
-        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Abril 2024 - Actualidad (SEIDOR)</h4>
+        <h4 className='font-semibold hidden lg:block text-base mt-5 w-40' style={{ minWidth: '130px' }}>Abril 2024 - Actualidad (SEIDOR)</h4>
         <div className='ml-4 border-l-2 border-rose-300 pl-8 relative'>
           <div className="w-3 h-3 bg-rose-500 rounded-full absolute dot"></div>
           <h3 className='text-2xl font-semibold text-rose-500 my-2'>Full Stack Developer</h3>
-          <h4 className='font-semibold lg:hidden'>Marzo 2024 - Actualidad</h4>
+          <h4 className='font-semibold lg:hidden'>Marzo 2024 - Actualidad (SEIDOR)</h4>
           <h5 className='text-rose-500 font-medium my-3'>People Planner: SaaS de gestión de personal</h5>
           <ol className='list-disc ml-8 mb-8'>
             <li>Mantenimiento y desarrollo de funcionalidades de la plataforma “PeoplePlanner”, sistema de gestión de recursos humanos. </li>
@@ -19,7 +19,7 @@ function Experiencia() {
             <li>Optimización del backend con arquitectura hexagonal y Serverless Framework, incorporando WebSocket para comunicación en tiempo real. </li>
             <li>Tecnologías utilizadas: <b className='font-semibold'>React.js, JavaScript, Node.js, Express, MariaDB, Serverless, AWS.</b></li>
           </ol>
-          <img src={peoplePlanner} alt="People Planner" className='shadow-lg rounded-xl mb-9 mx-auto' />
+          {/* <img src={peoplePlanner} alt="People Planner" className='shadow-lg rounded-xl mb-9 mx-auto w-3/4' /> */}
 
           <h5 className='text-rose-500 font-medium my-3'>SaaS de evaluación de pilotos (LATAM)</h5>
           <ol className='list-disc ml-8 mb-8'>
@@ -28,17 +28,17 @@ function Experiencia() {
             <li>Contribución en el diseño de arquitectura y experiencia de usuario, optimizando el proceso de evaluación de más de 4800 usuarios en Latinoamérica.</li>
             <li>Tecnologías utilizadas: <b className='font-semibold'>React.js, Service Workers, IndexedDB, JavaScript, SAP CAP, SAP S/HANA</b></li>
           </ol>
-          <img src={latam} alt="Web Formularios LATAM" className='shadow-lg rounded-xl mb-6 mx-auto' />
+          {/* <img src={latam} alt="Web Formularios LATAM" className='shadow-lg rounded-xl mb-6 mx-auto w-3/4' /> */}
         </div>
       </div>
       
       <div className="flex">
-        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Julio 2023 - Diciembre 2023 (Solucionatica)</h4>
+        <h4 className='font-semibold hidden lg:block text-base mt-5 w-40' style={{ minWidth: '130px' }}>Julio 2023 - Diciembre 2023 (Solucionatica)</h4>
         <div className='ml-4 border-l-2 border-rose-300 pl-8 relative'>
           <div className="w-3 h-3 bg-rose-500 rounded-full absolute dot"></div>
           <div className='my-4'>
             <h3 className='text-2xl font-semibold text-rose-500 my-2'>Full Stack Developer + IA Engineer</h3>
-            <h4 className='font-semibold lg:hidden'>Julio 2023 - Diciembre 2023</h4>
+            <h4 className='font-semibold lg:hidden'>Julio 2023 - Diciembre 2023 (Solucionatica)</h4>
           </div>
           <h5 className='text-rose-500 font-medium my-3'>Chatbot Web + IA</h5>
           <ol className='list-disc ml-8 mb-8'>
@@ -59,11 +59,11 @@ function Experiencia() {
       </div>
 
       <div className="flex">
-        <h4 className='font-semibold hidden lg:block text-base mt-5 min-w-40'>Julio 2022 - Diciembre 2022 (Solucionatica)</h4>
+        <h4 className='font-semibold hidden lg:block text-base mt-5 w-40' style={{ minWidth: '130px' }}>Julio 2022 - Diciembre 2022 (Solucionatica)</h4>
         <div className='ml-4 border-l-2 border-rose-300 pl-8 relative'>
           <div className="w-3 h-3 bg-rose-500 rounded-full absolute dot"></div>
           <h3 className='text-2xl font-semibold text-rose-500 my-2'>Full Stack Developer</h3>
-          <h4 className='font-semibold lg:hidden'>Julio 2022 - Diciembre 2022</h4>
+          <h4 className='font-semibold lg:hidden'>Julio 2022 - Diciembre 2022 (Solucionatica)</h4>
           <h5 className='text-rose-500 font-medium my-3'>Web de compra de boletos para concurso SERNANP</h5>
           <ol className='list-disc ml-8 mb-8'>
             <li>Definición de la arquitectura del proyecto con estándares de desarrollo y documentación. </li>
